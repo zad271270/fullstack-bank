@@ -1,0 +1,758 @@
+repo_name: zad271270/fullstack-bank
+report_id: f6061cc7b5f9d72c5d6a4da6a4323c0d
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T14:27:40+00:00'
+requested_by: jaiswaladi246
+provider: github
+branch: main
+detected_tools_count: 53
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/zad271270/fullstack-bank
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/zad271270/fullstack-bank
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:19:24.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.0.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/Dockerfile
+  detection_source: app/backend/Dockerfile
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 6.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-21 08:08:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:20:03.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 14.0.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: "@istanbuljs/nyc-config-typescript"
+  description: Nyc configuration that works with typescript
+  package_url: https://www.npmjs.com/@istanbuljs/nyc-config-typescript
+  version: 1.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17448/default_feeb5f9682b10b4223ce6e22e98c891d2c0e3851.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@types/cors"
+  description: TypeScript definitions for cors
+  package_url: https://www.npmjs.com/@types/cors
+  version: 2.8.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17290/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:19:24.000000000 Z
+- name: "@types/jsonwebtoken"
+  description: TypeScript definitions for jsonwebtoken
+  package_url: https://www.npmjs.com/@types/jsonwebtoken
+  version: 8.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:20:03.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-21 03:08:11.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: "@types/sequelize"
+  description: TypeScript definitions for Sequelize
+  package_url: https://www.npmjs.com/@types/sequelize
+  version: 4.28.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18305/default_adee5b58cc2acb885faff4066ee6d7281131005f.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@types/sinon"
+  description: TypeScript definitions for Sinon
+  package_url: https://www.npmjs.com/@types/sinon
+  version: 10.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.3.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: chai-http
+  description: Extend Chai Assertion library with tests for http apis
+  package_url: https://www.npmjs.com/chai-http
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16767/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 15.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.25.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:19:24.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: http-status-codes
+  description: Constants enumerating the HTTP status codes
+  package_url: https://www.npmjs.com/http-status-codes
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17527/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-20 20:18:47.000000000 Z
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  version: 17.7.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 15.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/frontend/package-lock.json
+  detection_source: app/frontend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: sequelize-cli
+  description: The Sequelize CLI
+  package_url: https://www.npmjs.com/sequelize-cli
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18714/default_5921235b47b1f6f3bd5aba9257245016601078bf.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-16 00:14:32.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-21 03:08:11.000000000 Z
+- name: ts-node-dev
+  description: Compiles your TS app and restarts when files are modified
+  package_url: https://www.npmjs.com/ts-node-dev
+  version: 1.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17644/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/zad271270/fullstack-bank/blob/main/app/backend/package-lock.json
+  detection_source: app/backend/package.json
+  last_updated_by: Raphael Martins
+  last_updated_on: 2022-11-21 03:08:11.000000000 Z
